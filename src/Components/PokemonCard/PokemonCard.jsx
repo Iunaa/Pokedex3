@@ -1,9 +1,8 @@
 import React from "react";
 import styles from "../PokemonCard/pokemonCard.module.scss";
 
-import React from 'react'
 
-export const Pokemon = (props) => {
+    const Pokemon = (props) => {
     const {pokemon} = props;
   return (
 
@@ -13,3 +12,5 @@ export const Pokemon = (props) => {
     </div>
   )
 }
+
+export default Pokemon
